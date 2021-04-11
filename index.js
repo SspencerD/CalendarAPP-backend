@@ -30,6 +30,6 @@ app.use('/api/events', require('./routes/events') );
 
 // escucha peticiones
 app.listen( process.env.PORT , ()=> {
-    console.log(`Servidor corriendo en puerto ${8080}`)
+    console.log(`Servidor corriendo en puerto ${process.env.PORT}`);
 });
 

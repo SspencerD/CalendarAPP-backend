@@ -1,10 +1,9 @@
 {
   "name": "calendar-backend",
   "version": "1.0.0",
-  "description": "",
+  "description": "Esta es el backend de calendar app realizado con react y mern",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon index.js",
     "start": "node index.js"
   },
