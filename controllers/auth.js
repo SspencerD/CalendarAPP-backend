@@ -125,6 +125,8 @@ const TokenRevalid =  async(req, res) => {
 
     res.json({
         ok: true,
+        uid: req.uid,
+        name: req.name,
         token
 
     })
